@@ -5,13 +5,16 @@ int main(void)
 	int num1 = 10, num2 = 10;
 
 	printf("num1 = %d\n", num1);
-	printf("num1++ = %d\n", num1++);// ÇØ´ç ¹®ÀåÀ» ½ÇÇà ÈÄ º¯¼öÀÇ °ªÀ» 1 Áõ°¡
+	printf("num1++ = %d\n", num1++);// í•´ë‹¹ ë¬¸ì¥ì„ ì‹¤í–‰ í›„ ë³€ìˆ˜ì˜ ê°’ì„ 1 ì¦ê°€
 	printf("num1 = %d\n", num1);
 	printf("\n");
 
 	printf("num2 = %d\n", num2);
-	printf("++num2 = %d\n", ++num2);// º¯¼öÀÇ °ªÀ» 1 Áõ°¡ÇÑ ÈÄ ¹®Àå ½ÇÇà
+	printf("++num2 = %d\n", ++num2);// ë³€ìˆ˜ì˜ ê°’ì„ 1 ì¦ê°€í•œ í›„ ë¬¸ì¥ ì‹¤í–‰
 	printf("num2 = %d\n", num2);
 
 	return 0;
 }
+/* 
+ ì •ë³´) ++ë¿ë¬¸ ì•„ë‹ˆë¼ --ë„ ê°€ëŠ¥í•˜ë‹¤
+ */
