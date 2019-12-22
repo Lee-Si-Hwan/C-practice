@@ -4,11 +4,11 @@ int main(void)
 {
 	int num1 = 3;
 	int num2 = 4;
-	int result = num1 + num2;
+	int result = num1 + num2;// ë³€ìˆ˜ì„ ì–¸ì€ ì•ì— ë¨¼ì € í•´ì•¼ ì—ëŸ¬ê°€ ì•ˆ ëœ¬ë‹¤
 
-	printf("µ¡¼À °á°ú: %d\n", result);
+	printf("ë§ì…ˆ ê²°ê³¼: %d\n", result);
 	printf("%d + %d = %d\n", num1, num2, result);
-	printf("%d¿Í(°ú) %dÀÇ ÇÕÀº %dÀÔ´Ï´Ù\n", num1, num2, result);
+	printf("%dì™€(ê³¼) %dì˜ í•©ì€ %dì…ë‹ˆë‹¤\n", num1, num2, result);
 
 	return 0;
 }
