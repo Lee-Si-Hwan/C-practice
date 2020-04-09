@@ -12,7 +12,7 @@ int main (void){
 		case 10:
 			printf("100점!");
 			break;                // break을 쓰지 않으면 지정된 case 아래에 있는 모든 case를 실행한다. 물론 이를 이용할 수도 있다. 
-		case 9:
+		case 9:                       // 연속해서 case를 묶고 싶으면// case 10 : case 9: //이런 식으로 사용할 수도 있다.
 			printf("90점 대");
 			break;
 		case 8:
